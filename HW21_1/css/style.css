@@ -1,0 +1,79 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Навігація */
+#navbar {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #1e90ff;
+}
+
+.active {
+    border-bottom: 2px solid #1e90ff;
+}
+
+/* Основний блок */
+#resume {
+    width: 70%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Фото */
+.profile-photo {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 3px solid #1e90ff;
+}
+
+/* Заголовки */
+h1, h2 {
+    text-align: center;
+    color: #1e90ff;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Секції */
+.section {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Футер */
+#footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
